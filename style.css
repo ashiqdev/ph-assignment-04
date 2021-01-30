@@ -230,11 +230,13 @@ a.active {
     transform: translate(-50%, -50%);
     width    : 40%;
 
-    background-color: white;
-    padding         : 6rem;
-    border-radius   : 5px;
-    box-shadow      : 0 3rem 5rem rgba(0, 0, 0, 0.3);
-    z-index         : 10;
+    background   : #bdc3c7;
+    background   : linear-gradient(to right, #2c3e50, #bdc3c7);
+    color        : white;
+    padding      : 6rem;
+    border-radius: 15px;
+    box-shadow   : 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index      : 10;
 }
 
 #close-modal {
@@ -259,13 +261,13 @@ a.active {
 }
 
 .list-wrapper {
-    padding-top: 1rem;
-    display: flex;
-    width: 90%;
+    padding-top    : 1rem;
+    display        : flex;
+    width          : 90%;
     justify-content: space-between;
-    border-bottom: 0.5px dashed #ccc;
-    line-height: 3;
-    text-transform: uppercase;
+    border-bottom  : .3px dashed #ccc;
+    line-height    : 3;
+    text-transform : uppercase;
 }
 
 #tax-amount,
